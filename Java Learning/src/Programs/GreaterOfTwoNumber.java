@@ -6,7 +6,7 @@ public class GreaterOfTwoNumber {
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter First Number");
 		n1 = sc.nextInt();
-		System.out.println("Enter First Number");
+		System.out.println("Enter Second Number");
 		n2 = sc.nextInt();
 		if(n1>n2)
 		{
