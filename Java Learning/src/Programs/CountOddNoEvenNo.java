@@ -13,6 +13,7 @@ public class CountOddNoEvenNo {
 			if(i%2==1)
 			{
 				count++;
+				
 			}
 			else
 			{
