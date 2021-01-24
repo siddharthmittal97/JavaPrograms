@@ -1,7 +1,9 @@
 package Programs;
 import java.util.Scanner;
-public class TrailingZerosInFactorial {
-	public static void main(String[] args) {
+public class TrailingZerosInFactorial 
+{
+	public static void main(String[] args) 
+	{
 		int n,i,count;
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter number");

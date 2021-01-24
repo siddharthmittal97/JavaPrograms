@@ -1,17 +1,19 @@
 package Programs;
 import java.util.Scanner;
-public class CalculateFactorial 
+public class OddNumberUptoN 
 {
 	public static void main(String[] args) 
 	{
-		int n,f=1,i;
+		int n,i;
 		Scanner sc= new Scanner(System.in);
-		System.out.println("Enter the number");
+		System.out.println("Enter the Range");
 		n = sc.nextInt();
-		for(i=1;i<=n;i++)
+		for(i=0;i<=n;i++)
+		{
+		  if(i%2==1)
 		  {
-			f=f*i;
+			System.out.println(i);
 		  }
-		System.out.println(f);
+		}
 	}
 }
