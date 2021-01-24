@@ -1,7 +1,9 @@
 package Programs;
 import java.util.Scanner;
-public class GreaterOfTwoNumber {
-	public static void main(String[] args) {
+public class GreaterOfTwoNumber 
+{
+	public static void main(String[] args) 
+	{
 		int n1,n2;
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter First Number");
@@ -17,5 +19,4 @@ public class GreaterOfTwoNumber {
 			System.out.println("n2 is greater");
 		}
 	}
-
 }
