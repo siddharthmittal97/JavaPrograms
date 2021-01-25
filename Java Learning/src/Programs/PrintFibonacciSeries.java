@@ -12,8 +12,8 @@ public class PrintFibonacciSeries
 		n = sc.nextInt();
 		for(i=1;i<n;i++)
 		{
-		 c=a+b;
-		 System.out.println(c);
+		 System.out.println(a);
+		 c=a+b; 
 		 a=b;
 		 b=c;
 		}	
