@@ -1,6 +1,6 @@
 package Programs;
 import java.util.Scanner;
-public class Pattern4 
+public class Pattern6 
 {
 	public static void main(String[] args) 
 	{
@@ -10,7 +10,15 @@ public class Pattern4
 		int n = sc.nextInt();
 		for(i=1;i<=n;i++)
 		{
-			for(j=5;j>=i;j--)
+			for(j=1;j<=i;j++)
+			{
+			System.out.print("*");
+		    }
+			System.out.println();
+		}
+		for(i=1;i<=n;i++)
+		{
+			for(j=n;j>=i;j--)
 			{
 			System.out.print("*");
 		    }
