@@ -2,7 +2,7 @@ package Programs;
 import java.util.Scanner;
 public class MultiplicationTable 
 {
-public static void main(String[] args) 
+ public static void main(String[] args) 
   {
 	int n,i;
 	Scanner sc= new Scanner(System.in);

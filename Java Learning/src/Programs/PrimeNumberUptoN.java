@@ -2,7 +2,7 @@ package Programs;
 import java.util.Scanner;
 public class PrimeNumberUptoN 
 {
-public static void main(String[] args) 
+     public static void main(String[] args) 
      {
 		int i,n,temp=0,j,range;
 		Scanner sc= new Scanner(System.in);
