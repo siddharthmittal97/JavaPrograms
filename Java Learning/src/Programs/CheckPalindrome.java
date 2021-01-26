@@ -1,7 +1,9 @@
 package Programs;
 import java.util.Scanner;
-public class CheckPalindrome {
-	public static void main(String[] args) {
+public class CheckPalindrome 
+{
+	public static void main(String[] args) 
+	{
 		int rem,rev=0;
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter the number");

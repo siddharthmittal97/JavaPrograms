@@ -1,7 +1,9 @@
 package Programs;
 import java.util.Scanner;
-public class CountOddNoEvenNo {
-	public static void main(String[] args) {
+public class CountOddNoEvenNo 
+{
+	public static void main(String[] args) 
+	{
 		int i,count,count1,n;
 		count=0;
 		count1=0;
