@@ -22,7 +22,7 @@ public class Pattern12
 			{
 				System.out.print("*");
 			}
-			System.out.println("");
+			 System.out.println("");
 		}
 	}
 }

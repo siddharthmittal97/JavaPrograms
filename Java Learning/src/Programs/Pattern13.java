@@ -21,7 +21,7 @@ public class Pattern13
 			{
 				System.out.print("*");
 			}
-			System.out.println("");
+			  System.out.println("");
 		}		
 		for(int i=2;i<=n;i++)
 		{
